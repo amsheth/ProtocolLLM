@@ -1,0 +1,6 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/spi/qwen-2.5-coder-32b/SPI_driver_code_2_RAGFalse.sv:7:18: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_MOSI'
+%Error-BLKANDNBLK: ../../code/spi/qwen-2.5-coder-32b/SPI_driver_code_2_RAGFalse.sv:7:18: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_MOSI'
+%Error-BLKANDNBLK: ../../code/spi/qwen-2.5-coder-32b/SPI_driver_code_2_RAGFalse.sv:8:18: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_CLK'
+%Error: Exiting due to 3 error(s)

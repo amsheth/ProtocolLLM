@@ -1,0 +1,6 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/axi/deepcoder:14/AXI4_Lite_Master_code_0_RAGTrue.sv:63:13: Can't find definition of variable: 'M_AXI_WLAST'
+%Error-ASSIGNIN: ../../code/axi/deepcoder:14/AXI4_Lite_Master_code_0_RAGTrue.sv:119:25: Assigning to input/const variable: 'M_AXI_WREADY'
+                 ... For error description see https://verilator.org/warn/ASSIGNIN?v=5.020
+%Error: Exiting due to 2 error(s)

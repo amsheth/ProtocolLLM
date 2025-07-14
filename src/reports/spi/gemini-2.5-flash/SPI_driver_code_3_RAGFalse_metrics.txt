@@ -1,0 +1,12 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/spi/gemini-2.5-flash/SPI_driver_code_3_RAGFalse.sv:54:34: Value too large for 3 bit number: 8
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.09e-02 W
+Chip Area: 27532 µm²

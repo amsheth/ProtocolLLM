@@ -1,0 +1,6 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/axi/gpt-4o/AXI4_Lite_Master_code_0_RAGTrue.sv:40:5: Enum value illegally wrapped around (IEEE 1800-2017 6.19)
+%Error: ../../code/axi/gpt-4o/AXI4_Lite_Master_code_0_RAGTrue.sv:40:5: Overlapping enumeration value: 'READ_DATA'
+%Error: ../../code/axi/gpt-4o/AXI4_Lite_Master_code_0_RAGTrue.sv:41:5: Overlapping enumeration value: 'WAIT_RESP'
+%Error: Exiting due to 3 error(s)

@@ -1,0 +1,16 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_1_RAGFalse.sv:17:23: Operator VAR 'CLK_DIV_MAX' expects 32 bits on the Initial value, but Initial value's CONST '16'h18' generates 16 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-UNDRIVEN: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_1_RAGFalse.sv:11:24: Signal is not driven: 'I2C_En'
+%Warning-UNDRIVEN: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_1_RAGFalse.sv:34:11: Signal is not driven: 'shift_data'
+%Warning-UNDRIVEN: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_1_RAGFalse.sv:36:11: Signal is not driven: 'receive_ack'
+%Warning-CASEINCOMPLETE: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_1_RAGFalse.sv:52:9: Case values incompletely covered (example pattern 0x7)
+%Warning-CASEINCOMPLETE: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_1_RAGFalse.sv:69:13: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_1_RAGFalse.sv:81:13: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_1_RAGFalse.sv:96:13: Case values incompletely covered (example pattern 0x0)
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 3 problems in 'check -assert'.

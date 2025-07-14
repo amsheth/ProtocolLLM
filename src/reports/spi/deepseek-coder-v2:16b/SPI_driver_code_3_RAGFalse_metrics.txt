@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_3_RAGFalse.sv:29:24: Can't find definition of variable: 'CPOL'
+%Error: Exiting due to 1 error(s)

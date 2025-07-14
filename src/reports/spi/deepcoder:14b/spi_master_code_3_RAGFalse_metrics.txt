@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/deepcoder:14b/spi_master_code_3_RAGFalse.sv:27:13: Can't find definition of variable: 'start_transmit'
+%Error: Exiting due to 1 error(s)

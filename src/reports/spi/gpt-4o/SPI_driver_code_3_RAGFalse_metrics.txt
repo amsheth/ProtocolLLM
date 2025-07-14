@@ -1,0 +1,16 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/spi/gpt-4o/SPI_driver_code_3_RAGFalse.sv:33:21: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's VARREF 'CPOL' generates 32 bits.
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+%Warning-WIDTHTRUNC: ../../code/spi/gpt-4o/SPI_driver_code_3_RAGFalse.sv:39:21: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's VARREF 'CPOL' generates 32 bits.
+%Warning-WIDTHTRUNC: ../../code/spi/gpt-4o/SPI_driver_code_3_RAGFalse.sv:69:55: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'CPOL' generates 32 bits.
+%Warning-WIDTHTRUNC: ../../code/spi/gpt-4o/SPI_driver_code_3_RAGFalse.sv:97:36: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'CPOL' generates 32 bits.
+%Warning-CASEINCOMPLETE: ../../code/spi/gpt-4o/SPI_driver_code_3_RAGFalse.sv:89:13: Case values incompletely covered (example pattern 0x1)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.25e-02 W
+Chip Area: 28252 µm²

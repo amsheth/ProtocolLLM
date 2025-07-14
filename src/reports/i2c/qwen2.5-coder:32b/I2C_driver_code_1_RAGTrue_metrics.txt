@@ -1,0 +1,6 @@
+Lint Check:
+❌ Lint errors found:
+%Error-ENUMVALUE: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGTrue.sv:74:36: Implicit conversion to enum 'I2C_driver.state_t' from 'logic[3:0]' (IEEE 1800-2017 6.19.3)
+%Error-ENUMVALUE: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGTrue.sv:74:38: Implicit conversion to enum 'I2C_driver.state_t' from 'logic' (IEEE 1800-2017 6.19.3)
+%Error-NEEDTIMINGOPT: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGTrue.sv:167:17: Use --timing or --no-timing to specify how delays should be handled
+%Error: Exiting due to 3 error(s)

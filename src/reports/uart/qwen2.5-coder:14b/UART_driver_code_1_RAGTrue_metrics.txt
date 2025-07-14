@@ -1,0 +1,43 @@
+Lint Check:
+❌ Lint errors found:
+%Warning-MULTIDRIVEN: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:121:9: Variable also written to in always_comb (IEEE 1800-2017 9.2.2.2): 'framing_error'
+  121 |         framing_error <= 1'b0;
+   52 |     framing_error = 1'b0;
+%Warning-MULTIDRIVEN: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:122:9: Variable also written to in always_comb (IEEE 1800-2017 9.2.2.2): 'parity_error'
+  122 |         parity_error <= 1'b0;
+   53 |     parity_error = 1'b0;
+%Warning-MULTIDRIVEN: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:154:17: Variable also written to in always_comb (IEEE 1800-2017 9.2.2.2): 'parity_error'
+  154 |                 parity_error <= RX != parity_bit;
+  122 |         parity_error <= 1'b0;
+%Warning-MULTIDRIVEN: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:179:9: Variable also written to in always_comb (IEEE 1800-2017 9.2.2.2): 'framing_error'
+  179 |         framing_error <= 1'b0;
+  121 |         framing_error <= 1'b0;
+%Warning-MULTIDRIVEN: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:181:9: Variable also written to in always_comb (IEEE 1800-2017 9.2.2.2): 'framing_error'
+  181 |         framing_error <= 1'b1;
+  179 |         framing_error <= 1'b0;
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:31:13: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.bit_count'
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:31:13: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.bit_count'
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:31:13: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.bit_count'
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:31:13: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.bit_count'
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:31:13: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.bit_count'
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:36:7: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.framing_error'
+   36 | logic framing_error;
+   52 |     framing_error = 1'b0;
+  121 |         framing_error <= 1'b0;
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:37:7: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.parity_error'
+   37 | logic parity_error;
+   53 |     parity_error = 1'b0;
+  122 |         parity_error <= 1'b0;
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:37:7: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.parity_error'
+   37 | logic parity_error;
+   53 |     parity_error = 1'b0;
+  154 |                 parity_error <= RX != parity_bit;
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:36:7: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.framing_error'
+   36 | logic framing_error;
+   52 |     framing_error = 1'b0;
+  179 |         framing_error <= 1'b0;
+%Error-BLKANDNBLK: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_1_RAGTrue.sv:36:7: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.framing_error'
+   36 | logic framing_error;
+   52 |     framing_error = 1'b0;
+  181 |         framing_error <= 1'b1;
+%Error: Exiting due to 10 error(s)

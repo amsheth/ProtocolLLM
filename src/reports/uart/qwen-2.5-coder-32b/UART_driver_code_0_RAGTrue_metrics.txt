@@ -1,0 +1,6 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/qwen-2.5-coder-32b/UART_driver_code_0_RAGTrue.sv:37:5: Cannot find file containing module: 'UART_TX'
+%Error: ../../code/uart/qwen-2.5-coder-32b/UART_driver_code_0_RAGTrue.sv:37:5: This may be because there's no search path specified with -I<dir>.
+%Error: ../../code/uart/qwen-2.5-coder-32b/UART_driver_code_0_RAGTrue.sv:49:5: Cannot find file containing module: 'UART_RX'
+%Error: Exiting due to 3 error(s)

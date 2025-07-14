@@ -1,0 +1,15 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:59:5: syntax error, unexpected IDENTIFIER
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:99:33: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:107:32: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:113:28: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:122:29: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:125:32: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:129:35: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:135:29: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:139:32: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:145:35: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:152:28: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: ../../code/spi/gemini-2.5-pro/SPI_driver_code_1_RAGFalse.sv:158:9: syntax error, unexpected end
+%Error: Cannot continue

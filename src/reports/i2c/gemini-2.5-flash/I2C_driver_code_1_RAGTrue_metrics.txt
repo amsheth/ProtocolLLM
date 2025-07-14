@@ -1,0 +1,16 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_1_RAGTrue.sv:109:29: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'scl_clk_cnt' generates 16 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_1_RAGTrue.sv:120:55: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'scl_clk_cnt' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_1_RAGTrue.sv:127:33: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'scl_clk_cnt' generates 16 bits.
+%Warning-WIDTHTRUNC: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_1_RAGTrue.sv:255:47: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+%Warning-WIDTHTRUNC: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_1_RAGTrue.sv:307:36: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.85e-02 W
+Chip Area: 80896 µm²

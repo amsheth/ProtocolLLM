@@ -1,0 +1,9 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-UNDRIVEN: ../../code/spi/qwen-2.5-coder-32b/SPI_driver_code_0_RAGTrue.sv:20:11: Signal is not driven: 'clk_div'
+                   ... For warning description see https://verilator.org/warn/UNDRIVEN?v=5.020
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 1 problems in 'check -assert'.

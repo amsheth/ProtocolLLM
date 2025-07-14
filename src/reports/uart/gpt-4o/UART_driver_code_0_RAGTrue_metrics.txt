@@ -1,0 +1,13 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-CASEINCOMPLETE: ../../code/uart/gpt-4o/UART_driver_code_0_RAGTrue.sv:63:13: Case values incompletely covered (example pattern 0x5)
+                         ... For warning description see https://verilator.org/warn/CASEINCOMPLETE?v=5.020
+%Warning-CASEINCOMPLETE: ../../code/uart/gpt-4o/UART_driver_code_0_RAGTrue.sv:108:13: Case values incompletely covered (example pattern 0x5)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 7.09e-03 W
+Chip Area: 66708 µm²

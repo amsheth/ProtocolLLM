@@ -1,0 +1,5 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/qwen-2.5-coder-32b/UART_driver_code_0_RAGFalse.sv:250:41: Can't find definition of variable: 'baud_divisor'
+%Error: ../../code/uart/qwen-2.5-coder-32b/UART_driver_code_0_RAGFalse.sv:146:41: Can't find definition of variable: 'baud_divisor'
+%Error: Exiting due to 2 error(s)

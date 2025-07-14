@@ -1,0 +1,18 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:57:31: Operator EQ expects 64 bits on the LHS, but LHS's VARREF 'baud_cnt' generates 32 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHTRUNC: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:103:38: Operator ASSIGNDLY expects 10 bits on the Assign RHS, but Assign RHS's REPLICATE generates 11 bits.
+%Warning-WIDTHTRUNC: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:109:38: Operator ASSIGNDLY expects 5 bits on the Assign RHS, but Assign RHS's VARREF 'FRAME_BITS' generates 32 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:149:33: Operator EQ expects 64 bits on the LHS, but LHS's VARREF 'sample_cnt' generates 32 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:184:32: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'os_cnt' generates 4 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:198:32: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'os_cnt' generates 4 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:214:32: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'os_cnt' generates 4 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:225:32: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'os_cnt' generates 4 bits.
+%Warning-CASEINCOMPLETE: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:91:13: Case values incompletely covered (example pattern 0x2)
+%Warning-CASEINCOMPLETE: ../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:172:13: Case values incompletely covered (example pattern 0x5)
+
+Synthesis Check:
+❌ Synthesis errors found:
+../../code/uart/o3/UART_driver_code_0_RAGFalse.sv:20: ERROR: syntax error, unexpected TOK_ID, expecting ',' or '=' or ')'

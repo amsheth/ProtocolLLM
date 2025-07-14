@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/axi/alias-code/AXI4_Lite_Master_code_0_RAGTrue.sv:115:21: Can't find definition of variable: 'rvalid_reg'
+%Error: Exiting due to 1 error(s)

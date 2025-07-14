@@ -1,0 +1,10 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/codellama:34b/SPI_driver_code_0_RAGFalse.sv:1:108: syntax error, unexpected logic, expecting ','
+%Error: ../../code/spi/codellama:34b/SPI_driver_code_0_RAGFalse.sv:1:125: syntax error, unexpected output
+%Error: ../../code/spi/codellama:34b/SPI_driver_code_0_RAGFalse.sv:1:148: syntax error, unexpected output
+%Error: ../../code/spi/codellama:34b/SPI_driver_code_0_RAGFalse.sv:1:170: syntax error, unexpected output
+%Error: ../../code/spi/codellama:34b/SPI_driver_code_0_RAGFalse.sv:1:191: syntax error, unexpected output
+%Error: ../../code/spi/codellama:34b/SPI_driver_code_0_RAGFalse.sv:1:218: syntax error, unexpected ')', expecting ',' or ';'
+%Error: ../../code/spi/codellama:34b/SPI_driver_code_0_RAGFalse.sv:13:5: syntax error, unexpected assign
+%Error: Exiting due to 7 error(s)

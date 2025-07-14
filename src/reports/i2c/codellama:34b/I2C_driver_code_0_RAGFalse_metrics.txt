@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_0_RAGFalse.sv:98:47: SEL unexpected in assignment to unpacked array
+%Error: Exiting due to 1 error(s)

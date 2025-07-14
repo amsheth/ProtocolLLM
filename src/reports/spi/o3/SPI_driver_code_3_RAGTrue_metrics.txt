@@ -1,0 +1,14 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/o3/SPI_driver_code_3_RAGTrue.sv:48:25: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'div_cnt' generates 2 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/spi/o3/SPI_driver_code_3_RAGTrue.sv:62:56: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'div_cnt' generates 2 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/o3/SPI_driver_code_3_RAGTrue.sv:63:56: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'div_cnt' generates 2 bits.
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 9.53e-03 W
+Chip Area: 36068 µm²

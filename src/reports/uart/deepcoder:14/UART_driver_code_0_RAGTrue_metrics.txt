@@ -1,0 +1,6 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/deepcoder:14/UART_driver_code_0_RAGTrue.sv:131:34: syntax error, unexpected parameter, expecting TYPE-IDENTIFIER
+%Error: ../../code/uart/deepcoder:14/UART_driver_code_0_RAGTrue.sv:137:17: syntax error, unexpected end, expecting endcase
+%Error: ../../code/uart/deepcoder:14/UART_driver_code_0_RAGTrue.sv:146:30: syntax error, unexpected <=, expecting IDENTIFIER or randomize
+%Error: Exiting due to 3 error(s)

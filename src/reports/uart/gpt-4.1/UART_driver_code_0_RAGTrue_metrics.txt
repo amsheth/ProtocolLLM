@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/gpt-4.1/UART_driver_code_0_RAGTrue.sv:42:17: syntax error, unexpected ',', expecting ';'
+%Error: Exiting due to 1 error(s)

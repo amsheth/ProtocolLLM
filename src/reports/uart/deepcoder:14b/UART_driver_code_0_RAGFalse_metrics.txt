@@ -1,0 +1,10 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_0_RAGFalse.sv:83:44: Can't find definition of variable: 'tx_data_cnt'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_0_RAGFalse.sv:110:29: Can't find definition of variable: 'rx_busy'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_0_RAGFalse.sv:112:21: Can't find definition of variable: 'rx_data_cnt'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_0_RAGFalse.sv:114:21: Can't find definition of variable: 'rx_parity'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_0_RAGFalse.sv:119:21: Can't find definition of variable: 'rx_bit_count'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_0_RAGFalse.sv:132:25: Can't find definition of variable: 'parity_check'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_0_RAGFalse.sv:132:55: Can't find definition of variable: 'parity'
+%Error: Exiting due to 7 error(s)

@@ -1,0 +1,5 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_2_RAGFalse.sv:6:28: Enum value illegally wrapped around (IEEE 1800-2017 6.19)
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_2_RAGFalse.sv:6:28: Overlapping enumeration value: 'TRANSFER'
+%Error: Exiting due to 2 error(s)

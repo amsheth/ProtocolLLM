@@ -1,0 +1,8 @@
+Lint Check:
+❌ Lint errors found:
+%Error-ASSIGNIN: ../../code/uart/codellama:34b/UART_driver_code_0_RAGFalse.sv:85:13: Assigning to input/const variable: 'RX'
+                 ... For error description see https://verilator.org/warn/ASSIGNIN?v=5.020
+%Error-ASSIGNIN: ../../code/uart/codellama:34b/UART_driver_code_0_RAGFalse.sv:100:25: Assigning to input/const variable: 'RX'
+%Error-ASSIGNIN: ../../code/uart/codellama:34b/UART_driver_code_0_RAGFalse.sv:109:25: Assigning to input/const variable: 'RX'
+%Error-ASSIGNIN: ../../code/uart/codellama:34b/UART_driver_code_0_RAGFalse.sv:118:25: Assigning to input/const variable: 'RX'
+%Error: Exiting due to 4 error(s)

@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/gemini-2.5-flash/UART_driver_code_0_RAGTrue.sv:250:31: syntax error, unexpected IDENTIFIER, expecting "'{"
+%Error: Exiting due to 1 error(s)

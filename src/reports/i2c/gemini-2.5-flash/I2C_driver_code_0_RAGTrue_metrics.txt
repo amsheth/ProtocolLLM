@@ -1,0 +1,8 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_0_RAGTrue.sv:46:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.tx_byte_reg'
+%Error-BLKANDNBLK: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_0_RAGTrue.sv:47:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.rx_byte_reg'
+%Error-BLKANDNBLK: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_0_RAGTrue.sv:48:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.bit_counter'
+%Error-BLKANDNBLK: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_0_RAGTrue.sv:27:11: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.sda_out_val'
+%Error-BLKANDNBLK: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_0_RAGTrue.sv:28:11: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.sda_out_en'
+%Error: Exiting due to 5 error(s)

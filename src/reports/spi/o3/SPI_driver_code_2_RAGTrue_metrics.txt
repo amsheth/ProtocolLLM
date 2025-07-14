@@ -1,0 +1,10 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/o3/SPI_driver_code_2_RAGTrue.sv:50:29: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_cnt' generates 2 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-UNOPTFLAT: ../../code/spi/o3/SPI_driver_code_2_RAGTrue.sv:24:25: Signal unoptimizable: Circular combinational logic: 'data_out'
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 8 problems in 'check -assert'.

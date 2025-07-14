@@ -1,0 +1,8 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/deepseek-coder-v2:16b/UART_driver_code_0_RAGFalse.sv:19:30: Enum value illegally wrapped around (IEEE 1800-2017 6.19)
+%Error: ../../code/uart/deepseek-coder-v2:16b/UART_driver_code_0_RAGFalse.sv:19:30: Overlapping enumeration value: 'DATA'
+%Error: ../../code/uart/deepseek-coder-v2:16b/UART_driver_code_0_RAGFalse.sv:19:36: Overlapping enumeration value: 'PARITY'
+%Error: ../../code/uart/deepseek-coder-v2:16b/UART_driver_code_0_RAGFalse.sv:19:44: Enum value illegally wrapped around (IEEE 1800-2017 6.19)
+%Error: ../../code/uart/deepseek-coder-v2:16b/UART_driver_code_0_RAGFalse.sv:19:44: Overlapping enumeration value: 'STOP'
+%Error: Exiting due to 5 error(s)

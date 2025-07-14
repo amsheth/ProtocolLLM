@@ -1,0 +1,12 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-CASEINCOMPLETE: ../../code/spi/gemini-2.5-flash/SPI_driver_code_2_RAGFalse.sv:92:13: Case values incompletely covered (example pattern 0x3)
+                         ... For warning description see https://verilator.org/warn/CASEINCOMPLETE?v=5.020
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.24e-02 W
+Chip Area: 44128 µm²

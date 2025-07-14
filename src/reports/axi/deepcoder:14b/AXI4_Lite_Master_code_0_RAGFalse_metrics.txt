@@ -1,0 +1,17 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:9:25: Unsupported: Blocked and non-blocking assignments to same variable: 'AXI_Done'
+                   ... For error description see https://verilator.org/warn/BLKANDNBLK?v=5.020
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:13:25: Unsupported: Blocked and non-blocking assignments to same variable: 'M_AXI_AWVALID'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:18:25: Unsupported: Blocked and non-blocking assignments to same variable: 'M_AXI_WVALID'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:26:25: Unsupported: Blocked and non-blocking assignments to same variable: 'M_AXI_ARVALID'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:13:25: Unsupported: Blocked and non-blocking assignments to same variable: 'M_AXI_AWVALID'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:18:25: Unsupported: Blocked and non-blocking assignments to same variable: 'M_AXI_WVALID'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:26:25: Unsupported: Blocked and non-blocking assignments to same variable: 'M_AXI_ARVALID'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:9:25: Unsupported: Blocked and non-blocking assignments to same variable: 'AXI_Done'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:13:25: Unsupported: Blocked and non-blocking assignments to same variable: 'M_AXI_AWVALID'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:18:25: Unsupported: Blocked and non-blocking assignments to same variable: 'M_AXI_WVALID'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:26:25: Unsupported: Blocked and non-blocking assignments to same variable: 'M_AXI_ARVALID'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:9:25: Unsupported: Blocked and non-blocking assignments to same variable: 'AXI_Done'
+%Error-BLKANDNBLK: ../../code/axi/deepcoder:14b/AXI4_Lite_Master_code_0_RAGFalse.sv:9:25: Unsupported: Blocked and non-blocking assignments to same variable: 'AXI_Done'
+%Error: Exiting due to 13 error(s)

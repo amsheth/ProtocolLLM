@@ -1,0 +1,12 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/uart/gemini-2.5-pro/baud_gen_code_1_RAGTrue.sv:20:29: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'counter_reg' generates 9 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 7.70e-04 W
+Chip Area: 11508 µm²

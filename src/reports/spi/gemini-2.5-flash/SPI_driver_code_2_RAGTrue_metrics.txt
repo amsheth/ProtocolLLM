@@ -1,0 +1,12 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/spi/gemini-2.5-flash/SPI_driver_code_2_RAGTrue.sv:70:33: Operator ASSIGNDLY expects 3 bits on the Assign RHS, but Assign RHS's SUB generates 32 or 4 bits.
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 8.66e-03 W
+Chip Area: 30248 µm²

@@ -1,0 +1,15 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-pro/SPI_driver_code_2_RAGTrue.sv:60:33: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'clk_counter' generates 3 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-pro/SPI_driver_code_2_RAGTrue.sv:67:56: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_counter' generates 3 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-pro/SPI_driver_code_2_RAGTrue.sv:109:33: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_counter' generates 3 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-pro/SPI_driver_code_2_RAGTrue.sv:120:33: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_counter' generates 3 bits.
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 6.77e-03 W
+Chip Area: 28584 µm²

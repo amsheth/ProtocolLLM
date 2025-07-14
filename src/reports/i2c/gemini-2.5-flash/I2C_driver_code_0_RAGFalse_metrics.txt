@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_0_RAGFalse.sv:13:2: syntax error, unexpected end of file
+%Error: Cannot continue

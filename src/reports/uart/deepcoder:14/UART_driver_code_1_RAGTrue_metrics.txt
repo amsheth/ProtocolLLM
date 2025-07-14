@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/uart/deepcoder:14/UART_driver_code_1_RAGTrue.sv:7:24: Unsupported: Blocked and non-blocking assignments to same variable: 'TX'
+%Error: Exiting due to 1 error(s)

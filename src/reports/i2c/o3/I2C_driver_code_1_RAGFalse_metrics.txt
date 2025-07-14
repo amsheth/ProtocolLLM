@@ -1,0 +1,13 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/i2c/o3/I2C_driver_code_1_RAGFalse.sv:53:21: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'div_cnt' generates 7 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-CASEINCOMPLETE: ../../code/i2c/o3/I2C_driver_code_1_RAGFalse.sv:147:9: Case values incompletely covered (example pattern 0x0)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.41e-03 W
+Chip Area: 25548 µm²

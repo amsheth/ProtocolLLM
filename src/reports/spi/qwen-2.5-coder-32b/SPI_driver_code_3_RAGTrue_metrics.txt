@@ -1,0 +1,12 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/spi/qwen-2.5-coder-32b/SPI_driver_code_3_RAGTrue.sv:67:29: Operator ASSIGNDLY expects 3 bits on the Assign RHS, but Assign RHS's CONST '?32?sh8' generates 32 or 4 bits.
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 2.28e-03 W
+Chip Area: 27208 µm²

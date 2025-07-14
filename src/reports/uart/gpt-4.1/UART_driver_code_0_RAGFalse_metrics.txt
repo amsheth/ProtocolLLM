@@ -1,0 +1,18 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_0_RAGFalse.sv:28:31: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'baud_cnt' generates 9 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHTRUNC: ../../code/uart/gpt-4.1/UART_driver_code_0_RAGFalse.sv:163:37: Operator ASSIGNDLY expects 9 bits on the Assign RHS, but Assign RHS's DIVS generates 32 bits.
+%Warning-WIDTHTRUNC: ../../code/uart/gpt-4.1/UART_driver_code_0_RAGFalse.sv:171:41: Operator ASSIGNDLY expects 9 bits on the Assign RHS, but Assign RHS's SUB generates 32 bits.
+%Warning-WIDTHTRUNC: ../../code/uart/gpt-4.1/UART_driver_code_0_RAGFalse.sv:183:37: Operator ASSIGNDLY expects 9 bits on the Assign RHS, but Assign RHS's SUB generates 32 bits.
+%Warning-WIDTHTRUNC: ../../code/uart/gpt-4.1/UART_driver_code_0_RAGFalse.sv:198:37: Operator ASSIGNDLY expects 9 bits on the Assign RHS, but Assign RHS's SUB generates 32 bits.
+%Warning-CASEINCOMPLETE: ../../code/uart/gpt-4.1/UART_driver_code_0_RAGFalse.sv:86:17: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../../code/uart/gpt-4.1/UART_driver_code_0_RAGFalse.sv:158:13: Case values incompletely covered (example pattern 0x5)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 5.97e-03 W
+Chip Area: 74260 µm²

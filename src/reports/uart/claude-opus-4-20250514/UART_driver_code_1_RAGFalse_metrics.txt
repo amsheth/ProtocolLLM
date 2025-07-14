@@ -1,0 +1,16 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/uart/claude-opus-4-20250514/UART_driver_code_1_RAGFalse.sv:83:38: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'tx_baud_cnt' generates 16 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/uart/claude-opus-4-20250514/UART_driver_code_1_RAGFalse.sv:106:38: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'rx_baud_cnt' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/claude-opus-4-20250514/UART_driver_code_1_RAGFalse.sv:102:62: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'rx_baud_cnt' generates 16 bits.
+%Warning-CASEINCOMPLETE: ../../code/uart/claude-opus-4-20250514/UART_driver_code_1_RAGFalse.sv:176:13: Case values incompletely covered (example pattern 0x6)
+%Warning-CASEINCOMPLETE: ../../code/uart/claude-opus-4-20250514/UART_driver_code_1_RAGFalse.sv:276:13: Case values incompletely covered (example pattern 0x1)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 6.31e-03 W
+Chip Area: 97168 µm²

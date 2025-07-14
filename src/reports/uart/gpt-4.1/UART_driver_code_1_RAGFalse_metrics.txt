@@ -1,0 +1,21 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:102:37: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'tx_baud_cnt' generates 16 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:110:37: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'tx_baud_cnt' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:125:37: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'tx_baud_cnt' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:133:37: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'tx_baud_cnt' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:141:37: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'tx_baud_cnt' generates 16 bits.
+%Warning-WIDTHTRUNC: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:173:38: Operator ASSIGNDLY expects 16 bits on the Assign RHS, but Assign RHS's DIVS generates 32 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:191:37: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'rx_baud_cnt' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:204:37: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'rx_baud_cnt' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:213:37: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'rx_baud_cnt' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGFalse.sv:226:37: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'rx_baud_cnt' generates 16 bits.
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 2.63e-02 W
+Chip Area: 98636 µm²

@@ -1,0 +1,12 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-flash/SPI_driver_code_1_RAGFalse.sv:130:29: Operator EQ expects 32 or 4 bits on the LHS, but LHS's VARREF 'bit_counter' generates 3 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 9.86e-03 W
+Chip Area: 45536 µm²

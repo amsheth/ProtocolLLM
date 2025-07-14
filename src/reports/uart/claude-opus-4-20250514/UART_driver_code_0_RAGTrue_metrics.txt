@@ -1,0 +1,14 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/uart/claude-opus-4-20250514/UART_driver_code_0_RAGTrue.sv:311:40: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+%Warning-WIDTHTRUNC: ../../code/uart/claude-opus-4-20250514/UART_driver_code_0_RAGTrue.sv:160:42: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/claude-opus-4-20250514/UART_driver_code_0_RAGTrue.sv:35:30: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'baud_counter' generates 5 bits.
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 6.17e-03 W
+Chip Area: 80552 µm²

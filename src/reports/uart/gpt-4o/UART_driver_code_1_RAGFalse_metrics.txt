@@ -1,0 +1,17 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/uart/gpt-4o/UART_driver_code_1_RAGFalse.sv:51:30: Operator ASSIGNDLY expects 10 bits on the Assign RHS, but Assign RHS's REPLICATE generates 11 bits.
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_1_RAGFalse.sv:59:33: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'clk_div_cnt' generates 14 bits.
+%Warning-WIDTHTRUNC: ../../code/uart/gpt-4o/UART_driver_code_1_RAGFalse.sv:88:29: Operator ASSIGNDLY expects 14 bits on the Assign RHS, but Assign RHS's DIVS generates 32 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_1_RAGFalse.sv:101:40: Operator ASSIGNDLY expects 9 bits on the Assign RHS, but Assign RHS's SEL generates 8 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_1_RAGFalse.sv:90:33: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'clk_div_cnt' generates 14 bits.
+
+Synthesis Check:
+❌ Synthesis errors found:
+  Set init value: \UART_Error = 1'0
+     5/6: $0\UART_Error[0:0]
+Creating register for signal `\UART_driver.\UART_Error' using process `\UART_driver.$proc$../../code/uart/gpt-4o/UART_driver_code_1_RAGFalse.sv:79$8'.
+Warning: Wire UART_driver.UART_Error has an unprocessed 'init' attribute.
+ERROR: Found 18 problems in 'check -assert'.

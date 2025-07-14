@@ -1,0 +1,5 @@
+Lint Check:
+❌ Lint errors found:
+%Error-ASSIGNIN: ../../code/i2c/qwen-2.5-coder-32b/I2C_driver_code_0_RAGTrue.sv:123:33: Assigning to input/const variable: 'data_in'
+                 ... For error description see https://verilator.org/warn/ASSIGNIN?v=5.020
+%Error: Exiting due to 1 error(s)

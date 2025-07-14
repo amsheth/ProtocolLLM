@@ -1,0 +1,13 @@
+Lint Check:
+✅ No lint errors.
+✅ No lint warnings.
+
+Synthesis Check:
+❌ Synthesis errors found:
+     2/8: $0\rx_parity_error[0:0]
+     3/8: $0\rx_framing_error[0:0]
+     7/8: $0\UART_Error[0:0]
+Creating register for signal `\UART_driver.\UART_Error' using process `\UART_driver.$proc$../../code/uart/gemini-2.5-pro/UART_driver_code_1_RAGFalse.sv:173$18'.
+Creating register for signal `\UART_driver.\rx_framing_error' using process `\UART_driver.$proc$../../code/uart/gemini-2.5-pro/UART_driver_code_1_RAGFalse.sv:173$18'.
+Creating register for signal `\UART_driver.\rx_parity_error' using process `\UART_driver.$proc$../../code/uart/gemini-2.5-pro/UART_driver_code_1_RAGFalse.sv:173$18'.
+ERROR: Found 1 problems in 'check -assert'.

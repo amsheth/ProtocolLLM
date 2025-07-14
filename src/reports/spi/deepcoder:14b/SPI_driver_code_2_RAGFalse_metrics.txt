@@ -1,0 +1,10 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/spi/deepcoder:14b/SPI_driver_code_2_RAGFalse.sv:8:30: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_CLK'
+%Error-BLKANDNBLK: ../../code/spi/deepcoder:14b/SPI_driver_code_2_RAGFalse.sv:22:17: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_driver.tx_counter'
+%Error-BLKANDNBLK: ../../code/spi/deepcoder:14b/SPI_driver_code_2_RAGFalse.sv:23:17: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_driver.rx_counter'
+%Error-BLKANDNBLK: ../../code/spi/deepcoder:14b/SPI_driver_code_2_RAGFalse.sv:24:11: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_driver.tx_clk'
+%Error-BLKANDNBLK: ../../code/spi/deepcoder:14b/SPI_driver_code_2_RAGFalse.sv:25:17: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_driver.received_data'
+%Error-BLKANDNBLK: ../../code/spi/deepcoder:14b/SPI_driver_code_2_RAGFalse.sv:10:30: Unsupported: Blocked and non-blocking assignments to same variable: 'data_out'
+%Error-BLKANDNBLK: ../../code/spi/deepcoder:14b/SPI_driver_code_2_RAGFalse.sv:9:30: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_EN'
+%Error: Exiting due to 7 error(s)

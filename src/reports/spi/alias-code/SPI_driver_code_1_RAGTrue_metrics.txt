@@ -1,0 +1,12 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/alias-code/SPI_driver_code_1_RAGTrue.sv:57:33: Operator LT expects 32 or 4 bits on the LHS, but LHS's VARREF 'bit_cnt' generates 3 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.11e-03 W
+Chip Area: 16240 µm²

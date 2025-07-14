@@ -1,0 +1,15 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/openrouter/SPI_driver_code_0_RAGTrue.sv:56:27: Operator LT expects 32 or 4 bits on the LHS, but LHS's VARREF 'bit_count' generates 3 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHTRUNC: ../../code/spi/openrouter/SPI_driver_code_0_RAGTrue.sv:82:30: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's AND generates 32 or 8 bits.
+%Warning-WIDTHTRUNC: ../../code/spi/openrouter/SPI_driver_code_0_RAGTrue.sv:90:30: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's AND generates 32 or 8 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/openrouter/SPI_driver_code_0_RAGTrue.sv:94:35: Operator EQ expects 32 or 4 bits on the LHS, but LHS's VARREF 'bit_count' generates 3 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/openrouter/SPI_driver_code_0_RAGTrue.sv:88:31: Operator LT expects 32 or 4 bits on the LHS, but LHS's VARREF 'bit_count' generates 3 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/openrouter/SPI_driver_code_0_RAGTrue.sv:117:35: Operator EQ expects 32 or 4 bits on the LHS, but LHS's VARREF 'bit_count' generates 3 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/openrouter/SPI_driver_code_0_RAGTrue.sv:112:31: Operator LT expects 32 or 4 bits on the LHS, but LHS's VARREF 'bit_count' generates 3 bits.
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 5 problems in 'check -assert'.

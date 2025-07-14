@@ -1,0 +1,26 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:20:5: Operator ASSIGNDLY expects 8 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHTRUNC: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:21:10: Logical operator IF expects 1 bit on the If, but If's VARREF 'SPI_start' generates 8 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:29:4: Operator ASSIGNDLY expects 8 bits on the Assign RHS, but Assign RHS's CONST '1'h1' generates 1 bits.
+%Warning-WIDTHTRUNC: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:30:10: Logical operator IF expects 1 bit on the If, but If's VARREF 'SPI_start' generates 8 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:38:6: Operator ASSIGNDLY expects 8 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+%Warning-WIDTHTRUNC: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:39:24: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'SPI_start' generates 8 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:39:31: Operator EQ expects 8 bits on the RHS, but RHS's VARREF 'CPOL' generates 1 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:47:6: Operator ASSIGNDLY expects 8 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+%Warning-WIDTHTRUNC: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:48:24: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'SPI_start' generates 8 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:48:31: Operator EQ expects 8 bits on the RHS, but RHS's VARREF 'CPOL' generates 1 bits.
+%Warning-WIDTHTRUNC: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:59:24: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'SPI_start' generates 8 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:59:31: Operator EQ expects 8 bits on the RHS, but RHS's VARREF 'CPOL' generates 1 bits.
+%Warning-WIDTHTRUNC: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:57:10: Logical operator IF expects 1 bit on the If, but If's VARREF 'SPI_start' generates 8 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:67:10: Operator ASSIGNDLY expects 8 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+%Warning-WIDTHTRUNC: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:68:24: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'SPI_start' generates 8 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:68:31: Operator EQ expects 8 bits on the RHS, but RHS's VARREF 'CPOL' generates 1 bits.
+%Warning-UNDRIVEN: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:2:35: Signal is not driven: 'SPI_MOSI'
+%Warning-UNDRIVEN: ../../code/spi/codellama:34b/SPI_driver_code_1_RAGFalse.sv:2:45: Signal is not driven: 'SPI_CLK'
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 2 problems in 'check -assert'.

@@ -1,0 +1,19 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGFalse.sv:74:42: Operator EQ expects 32 or 27 bits on the LHS, but LHS's VARREF 'tx_baud_counter' generates 14 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGFalse.sv:96:37: Operator EQ expects 32 or 27 bits on the LHS, but LHS's VARREF 'rx_baud_counter' generates 14 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGFalse.sv:103:42: Operator EQ expects 32 or 27 bits on the LHS, but LHS's VARREF 'rx_baud_counter' generates 14 bits.
+%Warning-CASEINCOMPLETE: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGFalse.sv:134:9: Case values incompletely covered (example pattern 0x5)
+%Warning-CASEINCOMPLETE: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGFalse.sv:179:13: Case values incompletely covered (example pattern 0x1)
+%Warning-CASEINCOMPLETE: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGFalse.sv:220:9: Case values incompletely covered (example pattern 0x5)
+%Warning-CASEINCOMPLETE: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGFalse.sv:274:13: Case values incompletely covered (example pattern 0x1)
+%Warning-CASEINCOMPLETE: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGFalse.sv:327:13: Case values incompletely covered (example pattern 0x5)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.44e-02 W
+Chip Area: 96932 µm²

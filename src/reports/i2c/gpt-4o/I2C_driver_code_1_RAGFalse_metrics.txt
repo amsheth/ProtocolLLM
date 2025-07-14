@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4o/I2C_driver_code_1_RAGFalse.sv:12:25: Unsupported: Blocked and non-blocking assignments to same variable: 'busy'
+%Error: Exiting due to 1 error(s)

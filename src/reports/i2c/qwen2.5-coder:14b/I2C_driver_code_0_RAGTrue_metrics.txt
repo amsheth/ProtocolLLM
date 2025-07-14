@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/i2c/qwen2.5-coder:14b/I2C_driver_code_0_RAGTrue.sv:10:24: Unsupported: Blocked and non-blocking assignments to same variable: 'data_out'
+%Error: Exiting due to 1 error(s)

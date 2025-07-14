@@ -1,0 +1,11 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/o3/SPI_driver_code_0_RAGTrue.sv:54:25: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'div_cnt' generates 2 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/spi/o3/SPI_driver_code_0_RAGTrue.sv:90:37: Operator ASSIGNDLY expects 9 bits on the Assign RHS, but Assign RHS's REPLICATE generates 8 bits.
+%Warning-CASEINCOMPLETE: ../../code/spi/o3/SPI_driver_code_0_RAGTrue.sv:105:7: Case values incompletely covered (example pattern 0x2)
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 21 problems in 'check -assert'.

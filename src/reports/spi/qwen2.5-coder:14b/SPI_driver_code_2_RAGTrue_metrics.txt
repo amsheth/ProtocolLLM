@@ -1,0 +1,9 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/qwen2.5-coder:14b/SPI_driver_code_2_RAGTrue.sv:32:21: Operator EQ expects 32 or 4 bits on the LHS, but LHS's VARREF 'clk_div' generates 1 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+
+Synthesis Check:
+❌ Synthesis errors found:
+  fsm extraction failed: at least two states are required.

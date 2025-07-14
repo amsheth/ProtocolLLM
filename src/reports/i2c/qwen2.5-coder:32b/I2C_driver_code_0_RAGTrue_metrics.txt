@@ -1,0 +1,15 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_0_RAGTrue.sv:35:30: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'clk_div_cnt' generates 8 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_0_RAGTrue.sv:45:30: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'clk_div_cnt' generates 8 bits.
+%Warning-CASEINCOMPLETE: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_0_RAGTrue.sv:72:9: Case values incompletely covered (example pattern 0x9)
+%Warning-CASEINCOMPLETE: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_0_RAGTrue.sv:123:13: Case values incompletely covered (example pattern 0x9)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 3.40e-03 W
+Chip Area: 54468 µm²

@@ -1,0 +1,18 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-flash/SPI_driver_code_3_RAGTrue.sv:96:41: Operator EQ expects 32 or 3 bits on the LHS, but LHS's VARREF 'clk_div_counter' generates 2 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-flash/SPI_driver_code_3_RAGTrue.sv:102:41: Operator EQ expects 32 or 3 bits on the LHS, but LHS's VARREF 'clk_div_counter' generates 2 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-flash/SPI_driver_code_3_RAGTrue.sv:133:37: Operator EQ expects 32 or 3 bits on the LHS, but LHS's VARREF 'clk_div_counter' generates 2 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-flash/SPI_driver_code_3_RAGTrue.sv:140:37: Operator EQ expects 32 or 4 bits on the LHS, but LHS's VARREF 'bit_counter' generates 3 bits.
+%Warning-WIDTHEXPAND: ../../code/spi/gemini-2.5-flash/SPI_driver_code_3_RAGTrue.sv:139:37: Operator EQ expects 32 or 3 bits on the LHS, but LHS's VARREF 'clk_div_counter' generates 2 bits.
+%Warning-CASEINCOMPLETE: ../../code/spi/gemini-2.5-flash/SPI_driver_code_3_RAGTrue.sv:69:13: Case values incompletely covered (example pattern 0x5)
+%Warning-CASEINCOMPLETE: ../../code/spi/gemini-2.5-flash/SPI_driver_code_3_RAGTrue.sv:122:9: Case values incompletely covered (example pattern 0x5)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.06e-02 W
+Chip Area: 33396 µm²

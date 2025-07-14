@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/deepcoder:14/I2C_driver_code_0_RAGTrue.sv:22:30: syntax error, unexpected IDENTIFIER, expecting ',' or ';'
+%Error: Exiting due to 1 error(s)

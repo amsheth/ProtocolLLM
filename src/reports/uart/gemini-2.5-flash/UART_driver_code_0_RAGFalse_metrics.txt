@@ -1,0 +1,5 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/gemini-2.5-flash/UART_driver_code_0_RAGFalse.sv:145:1: syntax error, unexpected IDENTIFIER, expecting ';'
+%Error: ../../code/uart/gemini-2.5-flash/UART_driver_code_0_RAGFalse.sv:305:35: syntax error, unexpected IDENTIFIER, expecting "'{"
+%Error: Exiting due to 2 error(s)

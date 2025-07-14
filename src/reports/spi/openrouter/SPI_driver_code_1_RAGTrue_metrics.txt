@@ -1,0 +1,12 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/spi/openrouter/SPI_driver_code_1_RAGTrue.sv:59:33: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 9.29e-03 W
+Chip Area: 27184 µm²

@@ -1,0 +1,11 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/i2c/o3/I2C_driver_code_0_RAGFalse.sv:47:21: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'div_cnt' generates 7 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/i2c/o3/I2C_driver_code_0_RAGFalse.sv:56:24: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'div_cnt' generates 7 bits.
+%Warning-CASEINCOMPLETE: ../../code/i2c/o3/I2C_driver_code_0_RAGFalse.sv:212:13: Case values incompletely covered (example pattern 0x0)
+
+Synthesis Check:
+❌ Synthesis errors found:
+../../code/i2c/o3/I2C_driver_code_0_RAGFalse.sv:142: ERROR: syntax error, unexpected '['

@@ -1,0 +1,5 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/qwen2.5-coder:32b/UART_driver_code_0_RAGFalse.sv:54:33: Slice selection '[7:0]' has reversed range order versus data type's '[0:10]'
+%Error: ../../code/uart/qwen2.5-coder:32b/UART_driver_code_0_RAGFalse.sv:71:50: Slice selection '[9:0]' has reversed range order versus data type's '[0:10]'
+%Error: Exiting due to 2 error(s)

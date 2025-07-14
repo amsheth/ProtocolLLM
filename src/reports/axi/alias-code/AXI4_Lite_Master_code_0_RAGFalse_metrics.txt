@@ -1,0 +1,6 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/axi/alias-code/AXI4_Lite_Master_code_0_RAGFalse.sv:32:47: Enum value illegally wrapped around (IEEE 1800-2017 6.19)
+%Error: ../../code/axi/alias-code/AXI4_Lite_Master_code_0_RAGFalse.sv:32:47: Overlapping enumeration value: 'AR'
+%Error: ../../code/axi/alias-code/AXI4_Lite_Master_code_0_RAGFalse.sv:32:51: Overlapping enumeration value: 'R'
+%Error: Exiting due to 3 error(s)

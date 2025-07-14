@@ -1,0 +1,10 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/qwen-2.5-coder-32b/I2C_driver_code_0_RAGFalse.sv:53:27: Can't find definition of variable: 'IDLE'
+%Error: ../../code/i2c/qwen-2.5-coder-32b/I2C_driver_code_0_RAGFalse.sv:55:27: Can't find definition of variable: 'STOP'
+%Error: ../../code/i2c/qwen-2.5-coder-32b/I2C_driver_code_0_RAGFalse.sv:72:34: Can't find definition of variable: 'START'
+%Error: ../../code/i2c/qwen-2.5-coder-32b/I2C_driver_code_0_RAGFalse.sv:76:30: Can't find definition of variable: 'ADDR'
+%Error: ../../code/i2c/qwen-2.5-coder-32b/I2C_driver_code_0_RAGFalse.sv:80:39: Can't find definition of variable: 'RDATA'
+%Error: ../../code/i2c/qwen-2.5-coder-32b/I2C_driver_code_0_RAGFalse.sv:80:47: Can't find definition of variable: 'WDATA'
+%Error: ../../code/i2c/qwen-2.5-coder-32b/I2C_driver_code_0_RAGFalse.sv:85:34: Can't find definition of variable: 'ACK'
+%Error: Exiting due to 7 error(s)

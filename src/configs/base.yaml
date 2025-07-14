@@ -1,0 +1,205 @@
+spi:
+#   easy1: "Write a synthesizable SystemVerilog SPI Master module that:
+# Uses CPOL = 0, CPHA = 0 (SPI Mode 0).
+# Supports 8-bit transactions.
+# Drives SPI signals MOSI, SCLK, and CS.
+# Has a start signal to initiate communication.
+# Outputs received data on data_out.
+# Uses a clock divider to generate the SPI clock from clk.
+# 
+# "
+  easy2: "Generate a SPI driver in system verilog with the following structure, and given that we want its parameters as CPOL=1 and CPHA=1. This SPI driver should be able to act as the master..
+module SPI_driver( 
+input logic clk, 
+input logic rst,
+input logic [7:0] data_in, 
+input logic SPI_MISO, 
+Input logic SPI_start,
+output logic SPI_MOSI,
+output logic SPI_CLK, 
+output logic SPI_EN, 
+output logic [7:0] data_out );
+
+"
+  easy3: "Generate a SPI driver in system verilog with the following structure, and given that we want its parameters as CPOL=1 and CPHA=0. This SPI driver should be able to act as the master..
+module SPI_driver( 
+input logic clk, 
+input logic rst,
+input logic [7:0] data_in, 
+input logic SPI_MISO, 
+Input logic SPI_start,
+output logic SPI_MOSI,
+output logic SPI_CLK, 
+output logic SPI_EN, 
+output logic [7:0] data_out );
+
+"
+  easy4: "Generate a SPI driver in system verilog with the following structure, and given that we want its parameters as CPOL=0 and CPHA=1. This SPI driver should be able to act as the master..
+module SPI_driver( 
+input logic clk, 
+input logic rst,
+input logic [7:0] data_in, 
+input logic SPI_MISO, 
+Input logic SPI_start,
+output logic SPI_MOSI,
+output logic SPI_CLK, 
+output logic SPI_EN, 
+output logic [7:0] data_out );
+
+"
+  easy5: "Generate a SPI driver in system verilog with the following structure, and given that we want its parameters as CPOL=0 and CPHA=0. This SPI driver should be able to act as the master..
+module SPI_driver( 
+input logic clk, 
+input logic rst,
+input logic [7:0] data_in, 
+input logic SPI_MISO, 
+Input logic SPI_start,
+output logic SPI_MOSI,
+output logic SPI_CLK, 
+output logic SPI_EN, 
+output logic [7:0] data_out );
+
+  "
+i2c:
+  easy1: "
+  Write a SystemVerilog module to implement an I2C master controller. The controller should generate proper start and stop conditions, handle data transfers with acknowledgments, and support both write and read operations. The design must include a clock divider to produce the appropriate I2C SCL frequency. The I2C module should have the following interface:
+
+module I2C_driver(
+    input  logic       clk,         // System clock
+    input  logic       rst,         // Asynchronous reset
+    input  logic       I2C_Start,   // Initiate a transaction when high
+    input  logic       RW,          // Read/Write control: 0 for write, 1 for read
+    input  logic [6:0] slave_addr,  // 7-bit I2C slave address
+    input  logic [7:0] data_in,     // Data to be written (for write transactions)
+    inout  logic       I2C_SDA,     // I2C data line (bidirectional)
+    output logic       I2C_SCL,     // I2C clock line
+    output logic [7:0] data_out,    // Data received from slave (for read transactions)
+    output logic       I2C_En,      // Module enable signal (active during transaction)
+    output logic       busy         // Indicates the module is busy with a transaction
+);
+The I2C master controller should operate as follows:
+Start Condition: When I2C_Start is asserted, generate a start condition on the I2C bus.
+Addressing: Transmit the 7-bit slave address along with a R/W bit.
+Data Transfer:
+For write transactions (RW = 0), send the provided data (data_in) and handle the ACK from the slave.
+For read transactions (RW = 1), read the data from the slave and output it on data_out while sending the necessary ACK/NACK.
+Stop Condition: After the data transfer, generate a stop condition on the bus.
+Clock Generation: Use a clock divider to derive the I2C SCL frequency from the system clock.
+Control Signals: The module should assert busy during active transactions and deassert it once the transaction is complete.
+Design your code with clear state machine implementation, proper handling of bidirectional signals (I2C_SDA), and ensure that all I2C protocol timing requirements are met.
+
+  "
+  hard1: "
+  Write a SystemVerilog module to implement an I2C master controller. The controller should generate proper start and stop conditions, handle data transfers with acknowledgments, and support both write and read operations. The design must include a clock divider to produce the appropriate I2C SCL frequency. The I2C module should have the following interface:
+
+module I2C_driver(
+    input  logic       clk,         // System clock
+    input  logic       rst,         // Asynchronous reset
+    input  logic       I2C_Start,   // Initiate a transaction when high
+    input  logic       RW,          // Read/Write control: 0 for write, 1 for read
+    input  logic [9:0] slave_addr,  // 10-bit I2C slave address
+    input  logic [7:0] data_in,     // Data to be written (for write transactions)
+    inout  logic       I2C_SDA,     // I2C data line (bidirectional)
+    output logic       I2C_SCL,     // I2C clock line
+    output logic [7:0] data_out,    // Data received from slave (for read transactions)
+    output logic       I2C_En,      // Module enable signal (active during transaction)
+    output logic       busy         // Indicates the module is busy with a transaction
+);
+The I2C master controller should operate as follows:
+Start Condition: When I2C_Start is asserted, generate a start condition on the I2C bus.
+Addressing: Transmit the 10-bit slave address along with a R/W bit.
+Data Transfer:
+For write transactions (RW = 0), send the provided data (data_in) and handle the ACK from the slave.
+For read transactions (RW = 1), read the data from the slave and output it on data_out while sending the necessary ACK/NACK.
+Stop Condition: After the data transfer, generate a stop condition on the bus.
+Clock Generation: Use a clock divider to derive the I2C SCL frequency from the system clock.
+Control Signals: The module should assert busy during active transactions and deassert it once the transaction is complete.
+Design your code with clear state machine implementation, proper handling of bidirectional signals (I2C_SDA), and ensure that all I2C protocol timing requirements are met.
+
+  "
+
+axi:
+  easy1: "
+Write a SystemVerilog module to implement an AXI4-Lite Master Interface. The module should handle read and write transactions, generate appropriate AXI signals, and ensure proper handshaking with the AXI slave. The design should follow the AXI4-Lite protocol and include the following interface:
+
+
+module AXI4_Lite_Master(
+    input  logic        clk,          // System clock  
+    input  logic        rst,          // Asynchronous reset  
+    input  logic        AXI_Start,    // Start a new AXI transaction  
+    input  logic        AXI_WriteEn,  // 1 for write, 0 for read  
+    input  logic [31:0] AXI_Addr,     // Address for transaction  
+    input  logic [31:0] AXI_WData,    // Data to write  
+    output logic [31:0] AXI_RData,    // Data read from slave  
+    output logic        AXI_Done,     // Transaction complete  
+
+    // AXI4-Lite signals  
+    output logic [31:0] M_AXI_AWADDR,  
+    output logic        M_AXI_AWVALID,  
+    input  logic        M_AXI_AWREADY,  
+
+    output logic [31:0] M_AXI_WDATA,  
+    output logic [3:0]  M_AXI_WSTRB,  
+    output logic        M_AXI_WVALID,  
+    input  logic        M_AXI_WREADY,  
+
+    input  logic [1:0]  M_AXI_BRESP,  
+    input  logic        M_AXI_BVALID,  
+    output logic        M_AXI_BREADY,  
+
+    output logic [31:0] M_AXI_ARADDR,  
+    output logic        M_AXI_ARVALID,  
+    input  logic        M_AXI_ARREADY,  
+
+    input  logic [31:0] M_AXI_RDATA,  
+    input  logic [1:0]  M_AXI_RRESP,  
+    input  logic        M_AXI_RVALID,  
+    output logic        M_AXI_RREADY  
+); "
+
+uart:
+  easy1: "Write a SystemVerilog module to implement a UART (Universal Asynchronous Receiver-Transmitter) controller. The module should support configurable baud rates, transmit and receive functionality, and proper start, data, parity (optional), and stop bit handling. The UART should operate in full-duplex mode and adhere to the following interface:
+
+module UART_driver(
+    input  logic       clk,        // System clock
+    input  logic       rst,        // Asynchronous reset
+    input  logic       UART_Start, // Signal to initiate transmission
+    input  logic [7:0] data_in,    // Data to be transmitted
+    input  logic       RX,         // UART receive line
+    output logic       TX,         // UART transmit line
+    output logic [7:0] data_out,   // Received data
+    output logic       UART_Ready, // Ready to transmit next byte
+    output logic       UART_Busy,  // Indicates UART is currently transmitting
+    output logic       UART_Error  // High if framing or parity error detected
+);
+"
+  hard1: "Write a SystemVerilog module to implement a UART (Universal Asynchronous Receiver-Transmitter) controller. The module should support configurable baud rates, transmit and receive functionality, and proper start, data, parity (optional), and 2 stop bit handling. The UART should operate in full-duplex mode and adhere to the following interface:
+
+module UART_driver(
+    input  logic       clk,        // System clock
+    input  logic       rst,        // Asynchronous reset
+    input  logic       UART_Start, // Signal to initiate transmission
+    input  logic [8:0] data_in,    // Data to be transmitted
+    input  logic       RX,         // UART receive line
+    output logic       TX,         // UART transmit line
+    output logic [8:0] data_out,   // Received data
+    output logic       UART_Ready, // Ready to transmit next byte
+    output logic       UART_Busy,  // Indicates UART is currently transmitting
+    output logic       UART_Error  // High if framing or parity error detected
+);
+"
+#   easy1: "Write a SystemVerilog module to implement a UART (Universal Asynchronous Receiver-Transmitter) controller. The module should support configurable baud rates, transmit and receive functionality, and proper start, data, parity (optional), and stop bit handling. The UART should operate in full-duplex mode and adhere to the following interface:
+
+# module UART_driver(
+#     input  logic       clk,        // System clock
+#     input  logic       rst,        // Asynchronous reset
+#     input  logic       UART_Start, // Signal to initiate transmission
+#     input  logic [7:0] data_in,    // Data to be transmitted
+#     input  logic       RX,         // UART receive line
+#     output logic       TX,         // UART transmit line
+#     output logic [7:0] data_out,   // Received data
+#     output logic       UART_Ready, // Ready to transmit next byte
+#     output logic       UART_Busy,  // Indicates UART is currently transmitting
+#     output logic       UART_Error  // High if framing or parity error detected
+# );
+# "

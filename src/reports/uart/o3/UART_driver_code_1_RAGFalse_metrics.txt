@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/o3/UART_driver_code_1_RAGFalse.sv:170:35: syntax error, unexpected ';', expecting '('
+%Error: Exiting due to 1 error(s)

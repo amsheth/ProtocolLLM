@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/openrouter/SPI_driver_code_2_RAGTrue.sv:65:29: Unsupported tristate construct (not in propagation graph): VARREF 'SPI_MOSI'
+%Error: Exiting due to 1 error(s)

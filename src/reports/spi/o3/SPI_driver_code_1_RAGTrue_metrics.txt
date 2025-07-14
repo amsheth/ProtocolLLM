@@ -1,0 +1,13 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/o3/SPI_driver_code_1_RAGTrue.sv:46:25: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_cnt' generates 2 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-CASEINCOMPLETE: ../../code/spi/o3/SPI_driver_code_1_RAGTrue.sv:106:13: Case values incompletely covered (example pattern 0x0)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.23e-02 W
+Chip Area: 29720 µm²

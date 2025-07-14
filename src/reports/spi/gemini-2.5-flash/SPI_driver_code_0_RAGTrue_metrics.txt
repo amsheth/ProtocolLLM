@@ -1,0 +1,5 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/gemini-2.5-flash/SPI_driver_code_0_RAGTrue.sv:33:12: Can't find definition of task/function: 'clog2'
+%Error: ../../code/spi/gemini-2.5-flash/SPI_driver_code_0_RAGTrue.sv:34:12: Can't find definition of task/function: 'clog2'
+%Error: Exiting due to 2 error(s)

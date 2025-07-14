@@ -1,0 +1,13 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:122:9: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error-UNSUPPORTED: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:122:17: Unsupported tristate construct: ASSIGNDLY
+%Error: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:128:21: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:131:21: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error-UNSUPPORTED: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:131:29: Unsupported tristate construct: ASSIGNDLY
+%Error: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:170:9: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error-UNSUPPORTED: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:170:17: Unsupported tristate construct: ASSIGNDLY
+%Error: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:176:25: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:203:17: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error-UNSUPPORTED: ../../code/i2c/qwen2.5-coder:32b/I2C_driver_code_1_RAGFalse.sv:203:25: Unsupported tristate construct: ASSIGNDLY
+%Error: Exiting due to 10 error(s)

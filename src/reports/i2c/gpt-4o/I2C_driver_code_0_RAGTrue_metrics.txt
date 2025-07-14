@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/gpt-4o/I2C_driver_code_0_RAGTrue.sv:59:17: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: Exiting due to 1 error(s)

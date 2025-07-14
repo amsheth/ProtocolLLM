@@ -1,0 +1,15 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:16:30: syntax error, unexpected '<', expecting ','
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:18:5: syntax error, unexpected input
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:19:5: syntax error, unexpected input
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:20:5: syntax error, unexpected output
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:21:5: syntax error, unexpected output
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:22:5: syntax error, unexpected output
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:23:5: syntax error, unexpected input
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:24:5: syntax error, unexpected input
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:25:5: syntax error, unexpected input
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:26:5: syntax error, unexpected input
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:27:5: syntax error, unexpected output
+%Error: ../../code/axi/codellama:34b/AXI4_Lite_Master_code_0_RAGFalse.sv:38:5: syntax error, unexpected always_ff
+%Error: Exiting due to 12 error(s)

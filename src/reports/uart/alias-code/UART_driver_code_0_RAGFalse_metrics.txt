@@ -1,0 +1,14 @@
+Lint Check:
+❌ Lint errors found:
+%Warning-WIDTHEXPAND: ../../code/uart/alias-code/UART_driver_code_0_RAGFalse.sv:114:33: Operator NEQ expects 2 bits on the RHS, but RHS's VARREF 'parity_error' generates 1 bits.
+  114 |             end else if (parity != parity_error) begin
+%Warning-MULTIDRIVEN: ../../code/uart/alias-code/UART_driver_code_0_RAGFalse.sv:113:17: Variable written to in always_comb also written by other process (IEEE 1800-2017 9.2.2.2): 'rx_error'
+  113 |                 rx_error = 1'b1;
+   77 |             rx_error <= 1'b0;
+%Warning-UNDRIVEN: ../../code/uart/alias-code/UART_driver_code_0_RAGFalse.sv:31:11: Signal is not driven: 'parity_error'
+   31 |     logic parity_error;
+%Error-BLKANDNBLK: ../../code/uart/alias-code/UART_driver_code_0_RAGFalse.sv:27:11: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.rx_error'
+   27 |     logic rx_error;
+  115 |                 rx_error = 1'b1;
+   77 |             rx_error <= 1'b0;
+%Error: Exiting due to 1 error(s)

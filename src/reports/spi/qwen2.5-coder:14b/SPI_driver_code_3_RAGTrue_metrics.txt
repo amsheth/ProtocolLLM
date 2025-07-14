@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/qwen2.5-coder:14b/SPI_driver_code_3_RAGTrue.sv:56:30: Number is missing value digits: 4'd
+%Error: Exiting due to 1 error(s)

@@ -1,0 +1,9 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/i2c/o3/I2C_driver_code_0_RAGTrue.sv:42:25: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'div_cnt' generates 8 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+
+Synthesis Check:
+❌ Synthesis errors found:
+../../code/i2c/o3/I2C_driver_code_0_RAGTrue.sv:21: ERROR: syntax error, unexpected TOK_ID, expecting ',' or '=' or ')'

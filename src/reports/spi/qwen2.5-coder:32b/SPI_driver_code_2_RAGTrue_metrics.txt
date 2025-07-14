@@ -1,0 +1,13 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-CASEINCOMPLETE: ../../code/spi/qwen2.5-coder:32b/SPI_driver_code_2_RAGTrue.sv:72:9: Case values incompletely covered (example pattern 0x5)
+                         ... For warning description see https://verilator.org/warn/CASEINCOMPLETE?v=5.020
+%Warning-CASEINCOMPLETE: ../../code/spi/qwen2.5-coder:32b/SPI_driver_code_2_RAGTrue.sv:110:13: Case values incompletely covered (example pattern 0x5)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 9.20e-03 W
+Chip Area: 31252 µm²

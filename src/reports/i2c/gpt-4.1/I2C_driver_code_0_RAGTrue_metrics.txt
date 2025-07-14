@@ -1,0 +1,6 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/gpt-4.1/I2C_driver_code_0_RAGTrue.sv:237:53: syntax error, unexpected ',', expecting ';'
+%Error: ../../code/i2c/gpt-4.1/I2C_driver_code_0_RAGTrue.sv:245:56: syntax error, unexpected ',', expecting ';'
+%Error: ../../code/i2c/gpt-4.1/I2C_driver_code_0_RAGTrue.sv:263:34: syntax error, unexpected ',', expecting ';'
+%Error: Exiting due to 3 error(s)

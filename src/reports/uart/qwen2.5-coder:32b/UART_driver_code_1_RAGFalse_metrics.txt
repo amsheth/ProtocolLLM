@@ -1,0 +1,14 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/uart/qwen2.5-coder:32b/UART_driver_code_1_RAGFalse.sv:72:32: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+%Warning-WIDTHTRUNC: ../../code/uart/qwen2.5-coder:32b/UART_driver_code_1_RAGFalse.sv:118:30: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+%Warning-CASEINCOMPLETE: ../../code/uart/qwen2.5-coder:32b/UART_driver_code_1_RAGFalse.sv:55:9: Case values incompletely covered (example pattern 0x5)
+%Warning-CASEINCOMPLETE: ../../code/uart/qwen2.5-coder:32b/UART_driver_code_1_RAGFalse.sv:107:9: Case values incompletely covered (example pattern 0x1)
+
+Synthesis Check:
+❌ Synthesis errors found:
+    10/11: $0\UART_Error[0:0]
+Creating register for signal `\UART_driver.\UART_Error' using process `\UART_driver.$proc$../../code/uart/qwen2.5-coder:32b/UART_driver_code_1_RAGFalse.sv:100$23'.
+ERROR: Found 12 problems in 'check -assert'.

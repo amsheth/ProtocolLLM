@@ -1,0 +1,12 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-SYNCASYNCNET: ../../code/spi/deepcoder:14b/SPI_driver_code_0_RAGFalse.sv:3:18: Signal flopped as both synchronous and async: 'rst'
+                       ... For warning description see https://verilator.org/warn/SYNCASYNCNET?v=5.020
+%Warning-MULTIDRIVEN: ../../code/spi/deepcoder:14b/SPI_driver_code_0_RAGFalse.sv:28:13: Signal has multiple driving blocks with different clocking: 'SPI_driver.tx_data'
+%Warning-MULTIDRIVEN: ../../code/spi/deepcoder:14b/SPI_driver_code_0_RAGFalse.sv:9:18: Signal has multiple driving blocks with different clocking: 'SPI_EN'
+%Warning-MULTIDRIVEN: ../../code/spi/deepcoder:14b/SPI_driver_code_0_RAGFalse.sv:28:22: Signal has multiple driving blocks with different clocking: 'SPI_driver.rx_data'
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 18 problems in 'check -assert'.

@@ -1,0 +1,18 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:52:11: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.transaction_active'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:27:11: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.scl_oe'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:27:19: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.scl_out'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:22:20: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.sda_oe'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:22:11: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.sda_out'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:10:25: Unsupported: Blocked and non-blocking assignments to same variable: 'data_out'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:49:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.shift_reg'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:48:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.bit_cnt'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:49:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.shift_reg'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:48:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.bit_cnt'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:49:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.shift_reg'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:48:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.bit_cnt'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:22:11: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.sda_out'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:49:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.shift_reg'
+%Error-BLKANDNBLK: ../../code/i2c/gpt-4.1/I2C_driver_code_1_RAGTrue.sv:22:20: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.sda_oe'
+%Error: Exiting due to 15 error(s)

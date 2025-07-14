@@ -1,0 +1,10 @@
+Lint Check:
+✅ No lint errors.
+✅ No lint warnings.
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.29e-02 W
+Chip Area: 39536 µm²

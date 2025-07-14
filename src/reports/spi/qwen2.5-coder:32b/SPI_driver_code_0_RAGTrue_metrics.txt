@@ -1,0 +1,14 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/spi/qwen2.5-coder:32b/SPI_driver_code_0_RAGTrue.sv:67:31: Value too large for 3 bit number: 8
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+%Warning-WIDTHEXPAND: ../../code/spi/qwen2.5-coder:32b/SPI_driver_code_0_RAGTrue.sv:75:26: Operator ASSIGNDLY expects 8 bits on the Assign RHS, but Assign RHS's VARREF 'miso_in' generates 1 bits.
+%Warning-UNSIGNED: ../../code/spi/qwen2.5-coder:32b/SPI_driver_code_0_RAGTrue.sv:67:29: Comparison is constant due to unsigned arithmetic
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: Not found
+Chip Area: Not found

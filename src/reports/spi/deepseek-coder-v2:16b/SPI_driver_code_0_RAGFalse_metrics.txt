@@ -1,0 +1,10 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_0_RAGFalse.sv:6:11: syntax error, unexpected logic, expecting ','
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_0_RAGFalse.sv:7:5: syntax error, unexpected output
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_0_RAGFalse.sv:8:5: syntax error, unexpected output
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_0_RAGFalse.sv:9:5: syntax error, unexpected output
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_0_RAGFalse.sv:10:5: syntax error, unexpected output
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_0_RAGFalse.sv:11:1: syntax error, unexpected ')', expecting ',' or ';'
+%Error: ../../code/spi/deepseek-coder-v2:16b/SPI_driver_code_0_RAGFalse.sv:23:1: syntax error, unexpected always_ff
+%Error: Exiting due to 7 error(s)

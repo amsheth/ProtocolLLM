@@ -1,0 +1,6 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_0_RAGTrue.sv:30:5: Enum value illegally wrapped around (IEEE 1800-2017 6.19)
+%Error: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_0_RAGTrue.sv:30:5: Overlapping enumeration value: 'RECEIVE_PARITY_BIT'
+%Error: ../../code/uart/qwen2.5-coder:14b/UART_driver_code_0_RAGTrue.sv:31:5: Overlapping enumeration value: 'RECEIVE_STOP_BIT'
+%Error: Exiting due to 3 error(s)

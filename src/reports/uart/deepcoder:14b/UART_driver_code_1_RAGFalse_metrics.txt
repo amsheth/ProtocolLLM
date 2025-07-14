@@ -1,0 +1,10 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_1_RAGFalse.sv:121:44: Unsupported or unknown PLI call: '$count_ones'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_1_RAGFalse.sv:123:45: Unsupported or unknown PLI call: '$count_ones'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_1_RAGFalse.sv:218:56: Unsupported or unknown PLI call: '$count_ones'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_1_RAGFalse.sv:218:37: Can't find definition of variable: 'expected_parity'
+%Error: ../../code/uart/deepcoder:14b/UART_driver_code_1_RAGFalse.sv:220:57: Unsupported or unknown PLI call: '$count_ones'
+%Warning-IMPLICIT: ../../code/uart/deepcoder:14b/UART_driver_code_1_RAGFalse.sv:237:8: Signal definition not found, creating implicitly: 'UART_ERROR'
+  237 | assign UART_ERROR = parity_error;
+%Error: Exiting due to 5 error(s)

@@ -1,0 +1,9 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGTrue.sv:94:13: Unsupported in C: Block has the same name as variable: 'baud_tick'
+%Error: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGTrue.sv:167:13: Unsupported in C: Block has the same name as variable: 'baud_tick_rx'
+%Error: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGTrue.sv:29:13: Found definition of 'baud_tick' as a BEGIN but expected a variable
+%Error: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGTrue.sv:29:13: Unsupported in C: Variable has the same name as block: 'baud_tick'
+%Error: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGTrue.sv:46:13: Found definition of 'baud_tick_rx' as a BEGIN but expected a variable
+%Error: ../../code/uart/gpt-4.1/UART_driver_code_1_RAGTrue.sv:46:13: Unsupported in C: Variable has the same name as block: 'baud_tick_rx'
+%Error: Exiting due to 6 error(s)

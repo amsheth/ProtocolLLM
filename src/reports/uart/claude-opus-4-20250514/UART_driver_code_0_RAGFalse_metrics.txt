@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/claude-opus-4-20250514/UART_driver_code_0_RAGFalse.sv:28:9: Duplicate declaration of enum value: DATA_BITS
+%Error: Exiting due to 1 error(s)

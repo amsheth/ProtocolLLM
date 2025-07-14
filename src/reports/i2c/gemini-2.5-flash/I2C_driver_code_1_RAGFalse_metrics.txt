@@ -1,0 +1,15 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-LATCH: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_1_RAGFalse.sv:117:5: Latch inferred for signal 'I2C_driver.data_rx_reg' (not all control paths of combinational always assign a value)
+                ... For warning description see https://verilator.org/warn/LATCH?v=5.020
+%Warning-LATCH: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_1_RAGFalse.sv:117:5: Latch inferred for signal 'I2C_driver.bit_counter' (not all control paths of combinational always assign a value)
+%Warning-UNOPTFLAT: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_1_RAGFalse.sv:8:24: Signal unoptimizable: Circular combinational logic: 'I2C_SDA'
+%Warning-UNOPTFLAT: ../../code/i2c/gemini-2.5-flash/I2C_driver_code_1_RAGFalse.sv:46:17: Signal unoptimizable: Circular combinational logic: 'I2C_driver.bit_counter'
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: Not found
+Chip Area: Not found

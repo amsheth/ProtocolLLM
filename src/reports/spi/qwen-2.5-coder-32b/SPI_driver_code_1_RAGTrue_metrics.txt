@@ -1,0 +1,7 @@
+Lint Check:
+✅ No lint errors.
+✅ No lint warnings.
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 8 problems in 'check -assert'.

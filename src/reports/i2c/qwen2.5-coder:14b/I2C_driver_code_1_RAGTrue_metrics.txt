@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/qwen2.5-coder:14b/I2C_driver_code_1_RAGTrue.sv:141:9: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: Exiting due to 1 error(s)

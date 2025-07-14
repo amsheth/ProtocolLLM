@@ -1,0 +1,9 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/spi/o3/SPI_driver_code_2_RAGFalse.sv:53:25: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'div_cnt' generates 2 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 11 problems in 'check -assert'.

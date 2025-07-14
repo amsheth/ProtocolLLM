@@ -1,0 +1,13 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:48:30: Illegal character in binary constant: 2
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:55:13: Illegal character in binary constant: 2
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:60:30: Illegal character in binary constant: 3
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:65:30: Illegal character in binary constant: 4
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:68:13: Illegal character in binary constant: 3
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:72:30: Illegal character in binary constant: 5
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:78:13: Illegal character in binary constant: 4
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:82:30: Illegal character in binary constant: 5
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:88:13: Illegal character in binary constant: 5
+%Error: ../../code/i2c/codellama:34b/I2C_driver_code_1_RAGFalse.sv:95:30: Illegal character in binary constant: 5
+%Error: Exiting due to 10 error(s)

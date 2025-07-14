@@ -1,0 +1,19 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:61:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_count' generates 16 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:70:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_count' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:87:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_count' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:96:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_count' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:125:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_count' generates 16 bits.
+%Warning-WIDTHTRUNC: ../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:139:37: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:138:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_count' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:154:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_count' generates 16 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:167:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_count' generates 16 bits.
+
+Synthesis Check:
+❌ Synthesis errors found:
+    11/12: $0\UART_Error[0:0]
+Creating register for signal `\UART_driver.\UART_Error' using process `\UART_driver.$proc$../../code/uart/gpt-4o/UART_driver_code_0_RAGFalse.sv:109$17'.
+ERROR: Found 21 problems in 'check -assert'.

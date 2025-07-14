@@ -1,0 +1,14 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGTrue.sv:72:30: Operator EQ expects 32 or 27 bits on the LHS, but LHS's VARREF 'baud_counter' generates 10 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHEXPAND: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGTrue.sv:131:47: Operator EQ expects 32 or 4 bits on the LHS, but LHS's VARREF 'tx_bit_count' generates 3 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_0_RAGTrue.sv:247:47: Operator EQ expects 32 or 4 bits on the LHS, but LHS's VARREF 'rx_bit_count' generates 3 bits.
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 7.18e-03 W
+Chip Area: 71228 µm²

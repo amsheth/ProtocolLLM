@@ -1,0 +1,5 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_0_RAGFalse.sv:21:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.bit_cnt'
+%Error-BLKANDNBLK: ../../code/i2c/deepseek-coder-v2:16b/I2C_driver_code_0_RAGFalse.sv:18:17: Unsupported: Blocked and non-blocking assignments to same variable: 'I2C_driver.data_buffer'
+%Error: Exiting due to 2 error(s)

@@ -1,0 +1,13 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/spi/openrouter/SPI_driver_code_3_RAGTrue.sv:8:38: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_CLK'
+                   ... For error description see https://verilator.org/warn/BLKANDNBLK?v=5.020
+%Error-BLKANDNBLK: ../../code/spi/openrouter/SPI_driver_code_3_RAGTrue.sv:9:38: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_EN'
+%Error-BLKANDNBLK: ../../code/spi/openrouter/SPI_driver_code_3_RAGTrue.sv:9:38: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_EN'
+%Error-BLKANDNBLK: ../../code/spi/openrouter/SPI_driver_code_3_RAGTrue.sv:8:38: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_CLK'
+%Error-BLKANDNBLK: ../../code/spi/openrouter/SPI_driver_code_3_RAGTrue.sv:7:38: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_MOSI'
+%Error-BLKANDNBLK: ../../code/spi/openrouter/SPI_driver_code_3_RAGTrue.sv:8:38: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_CLK'
+%Error-BLKANDNBLK: ../../code/spi/openrouter/SPI_driver_code_3_RAGTrue.sv:9:38: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_EN'
+%Error-BLKANDNBLK: ../../code/spi/openrouter/SPI_driver_code_3_RAGTrue.sv:33:12: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_driver.sclk_i'
+%Error-BLKANDNBLK: ../../code/spi/openrouter/SPI_driver_code_3_RAGTrue.sv:33:12: Unsupported: Blocked and non-blocking assignments to same variable: 'SPI_driver.sclk_i'
+%Error: Exiting due to 9 error(s)

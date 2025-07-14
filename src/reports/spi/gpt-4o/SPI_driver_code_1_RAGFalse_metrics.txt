@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/spi/gpt-4o/SPI_driver_code_1_RAGFalse.sv:26:24: Can't find definition of variable: 'CPOL'
+%Error: Exiting due to 1 error(s)

@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: Specified --top-module 'implements' was not found in design.
+%Error: Exiting due to 1 error(s)

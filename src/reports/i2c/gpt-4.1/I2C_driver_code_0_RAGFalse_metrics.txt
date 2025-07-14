@@ -1,0 +1,15 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/i2c/gpt-4.1/I2C_driver_code_0_RAGFalse.sv:29:29: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_div_cnt' generates 7 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHTRUNC: ../../code/i2c/gpt-4.1/I2C_driver_code_0_RAGFalse.sv:138:46: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+%Warning-WIDTHTRUNC: ../../code/i2c/gpt-4.1/I2C_driver_code_0_RAGFalse.sv:164:46: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+%Warning-WIDTHTRUNC: ../../code/i2c/gpt-4.1/I2C_driver_code_0_RAGFalse.sv:186:36: Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 3.63e-03 W
+Chip Area: 55016 µm²

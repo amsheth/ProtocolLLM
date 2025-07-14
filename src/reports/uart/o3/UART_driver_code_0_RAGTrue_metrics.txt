@@ -1,0 +1,16 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHTRUNC: ../../code/uart/o3/UART_driver_code_0_RAGTrue.sv:147:42: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's SUB generates 32 bits.
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+%Warning-WIDTHTRUNC: ../../code/uart/o3/UART_driver_code_0_RAGTrue.sv:155:34: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's SUB generates 32 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/o3/UART_driver_code_0_RAGTrue.sv:226:40: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'sample_ctr' generates 4 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/o3/UART_driver_code_0_RAGTrue.sv:243:40: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'sample_ctr' generates 4 bits.
+%Warning-WIDTHEXPAND: ../../code/uart/o3/UART_driver_code_0_RAGTrue.sv:256:40: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'sample_ctr' generates 4 bits.
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 8.86e-03 W
+Chip Area: 133768 µm²

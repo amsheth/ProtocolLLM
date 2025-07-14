@@ -1,0 +1,5 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/gemini-2.5-flash/UART_driver_code_1_RAGFalse.sv:35:12: Can't find definition of task/function: 'clog2'
+%Error: ../../code/uart/gemini-2.5-flash/UART_driver_code_1_RAGFalse.sv:174:12: Can't find definition of task/function: 'clog2'
+%Error: Exiting due to 2 error(s)

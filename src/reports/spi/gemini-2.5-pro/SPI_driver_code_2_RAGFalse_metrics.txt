@@ -1,0 +1,13 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-CASEINCOMPLETE: ../../code/spi/gemini-2.5-pro/SPI_driver_code_2_RAGFalse.sv:46:9: Case values incompletely covered (example pattern 0x3)
+                         ... For warning description see https://verilator.org/warn/CASEINCOMPLETE?v=5.020
+%Warning-CASEINCOMPLETE: ../../code/spi/gemini-2.5-pro/SPI_driver_code_2_RAGFalse.sv:77:13: Case values incompletely covered (example pattern 0x3)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 1.34e-02 W
+Chip Area: 36784 µm²

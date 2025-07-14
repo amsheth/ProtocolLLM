@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/qwen2.5-coder:14b/I2C_driver_code_0_RAGFalse.sv:39:22: Can't find definition of variable: 'clk_freq'
+%Error: Exiting due to 1 error(s)

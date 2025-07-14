@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error-BLKANDNBLK: ../../code/uart/claude-sonnet-4-20250514/UART_driver_code_1_RAGFalse.sv:59:17: Unsupported: Blocked and non-blocking assignments to same variable: 'UART_driver.rx_parity_enable'
+%Error: Exiting due to 1 error(s)

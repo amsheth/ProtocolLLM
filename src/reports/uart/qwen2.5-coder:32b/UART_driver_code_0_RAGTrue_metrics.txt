@@ -1,0 +1,14 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/uart/qwen2.5-coder:32b/UART_driver_code_0_RAGTrue.sv:41:26: Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'baud_cnt' generates 9 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-CASEINCOMPLETE: ../../code/uart/qwen2.5-coder:32b/UART_driver_code_0_RAGTrue.sv:66:17: Case values incompletely covered (example pattern 0x9)
+%Warning-CASEINCOMPLETE: ../../code/uart/qwen2.5-coder:32b/UART_driver_code_0_RAGTrue.sv:109:17: Case values incompletely covered (example pattern 0x8)
+
+Synthesis Check:
+✅ No synthesis errors.
+
+Timing Met: YES
+Total Power: 6.26e-03 W
+Chip Area: 55308 µm²

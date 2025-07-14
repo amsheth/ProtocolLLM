@@ -1,0 +1,9 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/deepcoder:14/I2C_driver_code_1_RAGTrue.sv:72:9: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: ../../code/i2c/deepcoder:14/I2C_driver_code_1_RAGTrue.sv:80:21: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: ../../code/i2c/deepcoder:14/I2C_driver_code_1_RAGTrue.sv:88:17: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: ../../code/i2c/deepcoder:14/I2C_driver_code_1_RAGTrue.sv:96:17: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: ../../code/i2c/deepcoder:14/I2C_driver_code_1_RAGTrue.sv:106:21: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: ../../code/i2c/deepcoder:14/I2C_driver_code_1_RAGTrue.sv:121:17: Unsupported tristate construct (not in propagation graph): VARREF 'I2C_SDA'
+%Error: Exiting due to 6 error(s)

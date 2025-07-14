@@ -1,0 +1,16 @@
+`verilator_config
+lint_off -rule WIDTHEXPAND  -file "*/rvfimon.v"
+lint_off -rule WIDTHTRUNC   -file "*/rvfimon.v"
+lint_off -rule WIDTHTRUNC   -file "*/DW_div_*.inc"
+lint_off -rule WIDTHTRUNC   -file "*/DW_div_*.v"
+lint_off -rule WIDTHTRUNC   -file "*/DW_mult_*.inc"
+lint_off -rule WIDTHTRUNC   -file "*/DW_mult_*.v"
+lint_off -rule SYNCASYNCNET -file "*/DW_div_*.v"
+lint_off -rule SYNCASYNCNET -file "*/DW_mult_*.v"
+lint_off -rule BLKSEQ
+lint_off -rule GENUNNAMED
+lint_off -rule DECLFILENAME
+lint_off -rule UNUSEDPARAM
+lint_off -rule UNUSEDSIGNAL
+lint_off -rule PINCONNECTEMPTY
+lint_off -rule EOFNEWLINE

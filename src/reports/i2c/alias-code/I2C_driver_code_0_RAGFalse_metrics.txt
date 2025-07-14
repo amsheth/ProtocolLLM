@@ -1,0 +1,5 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/i2c/alias-code/I2C_driver_code_0_RAGFalse.sv:25:9: Enum value illegally wrapped around (IEEE 1800-2017 6.19)
+%Error: ../../code/i2c/alias-code/I2C_driver_code_0_RAGFalse.sv:25:9: Overlapping enumeration value: 'STOP'
+%Error: Exiting due to 2 error(s)

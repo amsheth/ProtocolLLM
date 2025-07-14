@@ -1,0 +1,4 @@
+Lint Check:
+❌ Lint errors found:
+%Error: ../../code/uart/o3/UART_driver_code_1_RAGTrue.sv:247:19: syntax error, unexpected IDENTIFIER, expecting "'{"
+%Error: Exiting due to 1 error(s)

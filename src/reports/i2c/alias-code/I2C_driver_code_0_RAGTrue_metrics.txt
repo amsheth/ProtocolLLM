@@ -1,0 +1,11 @@
+Lint Check:
+✅ No lint errors.
+⚠️  Lint warnings found:
+%Warning-WIDTHEXPAND: ../../code/i2c/alias-code/I2C_driver_code_0_RAGTrue.sv:45:21: Operator ASSIGNDLY expects 11 bits on the Assign RHS, but Assign RHS's CONST '10'h1f4' generates 10 bits.
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+%Warning-WIDTHTRUNC: ../../code/i2c/alias-code/I2C_driver_code_0_RAGTrue.sv:76:30: Operator ASSIGNDLY expects 7 bits on the Assign RHS, but Assign RHS's REPLICATE generates 8 bits.
+%Warning-UNDRIVEN: ../../code/i2c/alias-code/I2C_driver_code_0_RAGTrue.sv:10:24: Signal is not driven: 'data_out'
+
+Synthesis Check:
+❌ Synthesis errors found:
+ERROR: Found 9 problems in 'check -assert'.
