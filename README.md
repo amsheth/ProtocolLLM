@@ -21,7 +21,8 @@ You will need to install Yosys, OpenSTA and QFlow or a STDCELL Lib.
 Everything will be run in src folder.
 * Run ```main.py``` after filling in the respective API keys.
 * Run ```convert.py``` to convert the generated output into .sv files.
-* Run ```synth.py``` from the Synth folder to generate the reports.
+* Run ```synth.py``` from the Synth folder to generate the Lint and Synthesis reports.
+* Run ```total.py``` to generate the Final_Metric_table.
 
 
 
