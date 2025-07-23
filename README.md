@@ -1,5 +1,7 @@
 # ProtocolLLM: RTL Benchmark for SystemVerilog Generation of Communication Protocols
 
+[![arxiv](https://img.shields.io/badge/arXiv-2402.18216-b31b1b.svg)](https://arxiv.org/abs/2506.07945)
+
 This Repository introduces ProtocolLLM, a benchmark suite designed to evaluate the capabilities of Large Language Models (LLMs) in generating synthesizable SystemVerilog implementations of standard communication protocols.
 
 **Key Contributions:**
@@ -14,7 +16,7 @@ This Repository introduces ProtocolLLM, a benchmark suite designed to evaluate t
 Hardware description languages like SystemVerilog have strict requirements regarding timing semantics, concurrency, and synthesizability. Furthermore, HDL-based design flows involve various tasks beyond just structural code generation, such as testbench development and protocol-level integration. This paper addresses the gap in understanding LLMs' applicability to these complex hardware design tasks, particularly focusing on the generation of core on-chip communication protocols.
 
 
-[![arxiv](https://img.shields.io/badge/arXiv-2402.18216-b31b1b.svg)](https://arxiv.org/abs/2506.07945)
+
 
 ![](src/images/Flowchart.png)
 
