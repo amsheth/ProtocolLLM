@@ -18,10 +18,10 @@ This Repository introduces ProtocolLLM, a benchmark suite designed to evaluate t
 
 You will need to install Yosys, OpenSTA and QFlow or a STDCELL Lib.
 
-
+Everything will be run in src folder.
 * Run ```main.py``` after filling in the respective API keys.
-* Run ```convert.py``` to convert the generated code into .sv files.
-* Now in the respective folders of Lint and Synth run ```lint.py``` and ```synth.py```
+* Run ```convert.py``` to convert the generated output into .sv files.
+* Run ```synth.py``` from the Synth folder to generate the reports.
 
 
 
