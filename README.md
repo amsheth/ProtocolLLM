@@ -11,6 +11,19 @@ This Repository introduces ProtocolLLM, a benchmark suite designed to evaluate t
 * **Comprehensive Evaluation:** Generated designs are assessed for syntactic correctness, synthesizability, and functional fidelity through waveform simulation and testbenches.
 * **Analysis of LLM Capabilities:** The paper analyzes the potential and limitations of state-of-the-art LLMs for hardware description language generation, a significantly underexplored area compared to general-purpose programming languages.
 
+
+
+
+**Code Setup**
+You will need to install Yosys, OpenSTA and QFlow or a STDCELL Lib.
+
+
+* Run ```main.py``` after filling in the respective API keys.
+* Run ```convert.py``` to convert the generated code into .sv files.
+* Now in the respective folders of Lint and Synth run ```lint.py``` and ```synth.py```
+
+
+
 **The Need:**
 
 Hardware description languages like SystemVerilog have strict requirements regarding timing semantics, concurrency, and synthesizability. Furthermore, HDL-based design flows involve various tasks beyond just structural code generation, such as testbench development and protocol-level integration. This paper addresses the gap in understanding LLMs' applicability to these complex hardware design tasks, particularly focusing on the generation of core on-chip communication protocols.
@@ -29,11 +42,6 @@ Hardware description languages like SystemVerilog have strict requirements regar
 
 This benchmark aims to provide the community with a standardized way to evaluate and advance the use of LLMs in hardware design automation.
 
-
-**TO RUN**
-* Run ```main.py``` after filling in the respective API keys.
-* Run ```convert.py``` to convert the generated code into .sv files.
-* Now in the respective folders of Lint and Synth run ```lint.py``` and ```synth.py```
 
 
 
