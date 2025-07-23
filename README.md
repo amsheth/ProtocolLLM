@@ -32,9 +32,6 @@ Hardware description languages like SystemVerilog have strict requirements regar
 
 
 
-
-![](src/images/Flowchart.png)
-
 **Protocols Included:**
 
 * SPI (Serial Peripheral Interface)
